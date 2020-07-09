@@ -1,0 +1,126 @@
+body {
+    background: url("https://subtlepatterns.com/patterns/debut_dark.png");
+}
+   ul {
+    font: 1em/1.4em Helvetica, Arial, sans-serif;
+    background-color: #87240F;
+    
+  }
+   li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    
+
+    
+  }
+   li a {
+    display: block;
+    padding: 1em 1.5em;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 9px;
+    
+    
+  }
+.form{
+    padding: 100px 0;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input{
+    height: 50px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+/*.form form label{
+    user-select: none;
+}*/
+
+.form form label input{
+    position: relative;
+    top: 20px;
+}
+
+.form form button{
+    height: 50px;
+    background-color: greenyellow;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+}
+.form form button:disabled{
+    height: 50px;
+    background-color: rgb(60, 62, 57);
+    outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.form form button:disabled:hover{
+    background-color: rgb(60, 62, 57);
+}
+
+.form form button:hover{
+    cursor: pointer;
+    background-color: rgb(130, 199, 26);
+}
+ 
+  
+   li a:hover {
+    color: white;
+    background: #71200f;
+  }
+ 
+  ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+  body{
+    background:img url(https://images.solecollector.com/complex/image/upload/oqdqcwujkbxzmk3zenej.jpg) no-repeat;
+}
+
+
+h1 {
+    font-weight: normal; 
+   } 
+   .select {
+    color: black; 
+    font-weight: 600; 
+   }
+       
+    body{
+      background:  url("http://7-themes.com/data_images/out/45/6923467-nike-livestrong-wallpaper.jpg") no-repeat;
+      
+    }
+       @media (min-width: 1258px) {
+        #top {
+         fontsize: 3em;
+        }
+         
+       }
+       @media (max-width: 1245px) and (min-width: 980px) {
+        #top {
+         fontsize: 2em;
+        }
+         
+       }
+
+       @media (max-width: 980px)  {
+        #top {
+         fontsize: 1.3em;
+         padding-top: 50%; 
+        }
+         
+       }
+         
+       
+   

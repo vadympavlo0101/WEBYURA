@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+.container{
+min-height: 100%;
+width: 100%;
+}
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background-color: darkgray;
+    width: 900px;
+    height: 500px;
+    position: relative;
+}
+.cards img{
+    width: 200px;
+    height:300px;
+    position: absolute;
+
+}
+.img1{
+top: 80px;
+left: 70px;
+z-index: 0;
+}
+.img2{
+    top: 180px;
+    left: 170px; 
+    z-index: 0; 
+}
+.img3{
+    top: 280px;
+left: 250px;
+z-index: 1;
+}
+.img4{
+    top: 230px;
+    right: 181px; 
+    z-index: 0;
+}
+.img5{
+    top: 150px;
+    right: 20px; 
+    z-index: 0; 
+}
+.paralax{
+    height: 2000px;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+.paralax-img{
+    background-image: url(https://images.ua.prom.st/1440764527_saharnaya-kartinka-lyubov.jpg);
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+    background-attachment: fixed;
+}

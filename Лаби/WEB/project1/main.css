@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+/* default settings */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: Trebuchet MS, Helvetica;
+}
+
+h2 {
+    color: #484848;
+    font-size: 30px;
+}
+
+span {
+    font-size: 1.3em;
+    color: #484848;
+}
+
+.container {
+    width: 780px;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.container-tab{
+    width: 520px;
+}
+
+@media (max-width:768px) {
+    .center {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+/* desctop */
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    position: fixed;
+}
+
+.logo,
+.about {
+    height: 100%;
+}
+
+.logo {
+    margin-top: -20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+header .logo span {
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Abril Fatface', serif;
+}
+
+@media (min-width:701px) {
+    .logo {
+        float: left;
+        font-size: 1.1em;
+    }
+
+    .about {
+        display: flex;
+        width: 380px;
+    }
+
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .about {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+.about {
+    text-align: center;
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 10px;
+
+}
+
+.about>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about>a:hover {
+    color: #b0b0b0;
+     text-decoration: underline;
+}
+
+.about>a:not(:last-child) {
+    margin-right: 7%;
+}
+*/
+.fixed {
+    z-index: 5000;
+    background-color: #fff;
+    border-bottom: 1px solid silver;
+}
+
+header.fixed .logo {
+    color: #343434;
+}
+
+.fixed .about a {
+    color: #343434
+}
+
+.fixed .about a:hover {
+    color: #7c7c7c
+}
+
+.top {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.radan-az.lviv.ua/wp-content/uploads/2017/06/radan-avtoservice.jpg.pagespeed.ce.viCgQNkZVg.jpg);
+    background-blend-mode: multiply;
+    background-color: #2e3a44;
+    background-size: cover;
+
+    color: #fff;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top {
+    font-size: 3em;
+}
+
+
+
+/* our-services */
+.our-services {
+    padding: 100px 0 100px 0;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    color: #484848;
+    display: flex;
+    justify-content: center;
+}
+
+.intro,
+.text {
+    width: 300px;
+}
+
+
+
+/* auto-detail */
+.auto-details {
+
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: multiply;
+    background-color: #2e3a44;
+    background-size: cover;
+    background-position: center;
+    background-image: url(ford.jpg);
+}
+
+.detail {
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    background-color: slategrey;
+}
+
+.detail img {
+    width: 100%;
+    height: 200px;
+}
+
+.detail h2 {
+    color: #fff;
+}
+
+
+table{
+    width: 700px;
+    background-color:bisque;
+    font-family: arial, sans-serif;
+
+
+}
+.table{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table, th, td {
+  border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+}
+th{
+    text-align: left;
+}
+.table{
+    border-spacing: 15px;
+}
+
+/* form */
+.form{
+    padding: 100px 0;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input{
+    height: 50px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+/*.form form label{
+    user-select: none;
+}*/
+
+.form form label input{
+    position: relative;
+    top: 20px;
+}
+
+.form form button{
+    height: 50px;
+    background-color: greenyellow;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+}
+.form form button:disabled{
+    height: 50px;
+    background-color: rgb(60, 62, 57);
+    outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.form form button:disabled:hover{
+    background-color: rgb(60, 62, 57);
+}
+
+.form form button:hover{
+    cursor: pointer;
+    background-color: rgb(130, 199, 26);
+}
+
+
+
+
+/* tab */
+@media (max-width: 1000px) and (min-width: 651px) {
+    .top {
+        font-size: 2em;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 650px) {
+    .top {
+        font-size: 1.3em;
+
+    }
+
+    .top h1 {}
+
+    .top h3 {
+        color: #ccc;
+    }
+
+
+    /* our-services */
+    .our-services {
+        flex-direction: column;
+        padding: 100px 10px;
+    }
+
+    .intro,
+    .text {
+        width: 100%;
+
+    }
+
+
+    /* auto-details */
+    .intro {
+        margin-bottom: 20px;
+    }
+
+    .detail{
+        width: 100%;
+        padding:0 5px;
+    }
+
+
+
+
+.menu{display:none!important}
+    .about:hover .menu{
+        display: block!important;
+    }
+
